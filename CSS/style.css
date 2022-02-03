@@ -3,7 +3,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Mitr', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Murecho', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -36,7 +37,7 @@ header{
 
 .navbar{
     display: flex;
-    position: relative;
+    position: fixed;
 }
 .navbar li{
     list-style: none;
