@@ -202,6 +202,11 @@ header .navbar li a:hover{
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 .casestaff{
     width: 400px;
+    animation-name: mon_anim2;
+    animation-duration: 6000ms;
+    animation-delay: 500ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
 }
 
 .casestaff:hover{
@@ -241,6 +246,17 @@ header .navbar li a:hover{
     }
     100% {
         transform: tranlateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes mon_anim2{
+    0%{
+        transform: translateZ(100vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateZ(0px);
         opacity: 1;
     }
 }
