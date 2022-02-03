@@ -38,7 +38,7 @@ header{
 
 .navbar{
     display: flex;
-    position: fixed;
+    position: relative;
 }
 .navbar li{
     list-style: none;
