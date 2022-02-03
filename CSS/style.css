@@ -14,7 +14,7 @@ p{
 }
 
 header{
-    position: fixed;
+    position: relative;
     top: 0%;
     left: 0%;
     padding: 20px 10px;
