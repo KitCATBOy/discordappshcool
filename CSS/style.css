@@ -251,23 +251,7 @@ header .navbar li a:hover{
 }
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 
-.postuler{
-    font-size: 1em;
-    color: #fff;
-    background: #7264f3;
-    padding: 10px 20px;
-    display: inline-block;
-    margin-top: 20px;
-    text-decoration: none;
-    letter-spacing: 2px;
-    transition: 0.5s;
-    margin-left: 10px;
-}
-.postuler:hover{
-    background: #5542f8;
-    transition: ease-out;
-}
-
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 @keyframes mon_anim{
     0%{
         transform: translateX(10vh);
@@ -300,3 +284,6 @@ header .navbar li a:hover{
         opacity: 1;
     }
 }
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
