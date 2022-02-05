@@ -109,6 +109,14 @@ header .navbar li a:hover{
     font-weight: 600;
 
 }
+
+.contenu {
+    animation-name: mon_anim2;
+    animation-duration: 3000ms;
+    animation-delay: 500ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
@@ -225,6 +233,14 @@ header .navbar li a:hover{
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
 }
+
+.contenu3{
+    animation-name: mon_anim2;
+    animation-duration: 2000ms;
+    animation-delay: 500ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 
 
@@ -239,7 +255,8 @@ header .navbar li a:hover{
 }
 
 .casestaff:hover{
-    opacity: 80%;
+    opacity: 95%;
+    transform: scale(1.01);
 }
 
 .caseform{
@@ -247,7 +264,9 @@ header .navbar li a:hover{
 }
 
 .caseform:hover{
-    opacity: 80%;
+    opacity: 95%;
+    transform: scale(1.01);
+    cursor: pointer;
 }
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 
@@ -284,6 +303,7 @@ header .navbar li a:hover{
         opacity: 1;
     }
 }
+
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
@@ -297,3 +317,6 @@ header .navbar li a:hover{
     
     
 }
+
+
+
