@@ -248,7 +248,7 @@ header .navbar li a:hover{
 .casestaff{
     width: 400px;
     animation-name: mon_anim2;
-    animation-duration: 6000ms;
+    animation-duration: 500ms;
     animation-delay: 500ms;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
